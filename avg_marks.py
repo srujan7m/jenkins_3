@@ -21,17 +21,6 @@ else:
 total = int(mark1) + int(mark2) + int(mark3) + int(mark4) + int(mark5)
 average = total / 5  
 
-if (total > 85):
-    print(" Grade: A")
-elif (total > 70):
-    print(" Grade: B")
-elif (total > 50):
-    print(" Grade: C")  
-else:
-    print(" Grade: F")
-    
-
-
 print(" Name:", name)
 print("USN:", rollno)
 print("Subject 1 marks :", mark1)
@@ -41,3 +30,13 @@ print("Subject 4 marks :", mark4)
 print("Subject 5 marks :", mark5)
 print("Total Marks:", total)
 print("Average Marks:", average)
+
+if (total > 85):
+    print(" Grade: A")
+elif (total > 70):
+    print(" Grade: B")
+elif (total > 50):
+    print(" Grade: C")  
+else:
+    print(" Grade: F")
+    
